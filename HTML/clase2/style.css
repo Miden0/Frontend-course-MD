@@ -1,0 +1,29 @@
+html{
+    background-color: #1F2223;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Main_div_div_button{
+    font-weight: bold;
+    background-color: #FA2356;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 16px 40px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+header{
+    font-size: 200%;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+}
+
+#subtitle{
+    font-family: 'Roboto', sans-serif;
+    color: darkgrey;
+}
