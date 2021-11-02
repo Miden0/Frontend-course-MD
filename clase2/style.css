@@ -15,12 +15,13 @@ html{
 }
 
 header{
-    font-size: 200%;
+    font-size: 100%;
 }
 
 #title{
     font-family: 'Roboto', sans-serif;
     margin-bottom: 2px;
+    font-size: 4rem;
 }
 
 #subtitle{
