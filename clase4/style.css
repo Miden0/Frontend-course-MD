@@ -34,6 +34,14 @@ html{
         margin: 0;
     }
 
+    #divi{
+        padding-bottom: 10%;
+    }
+
+    #formv{
+        padding-bottom: 10%;
+    }
+
     #smallcards{
         justify-content: space-between;
     }
