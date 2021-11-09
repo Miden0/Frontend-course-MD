@@ -1,0 +1,31 @@
+html{
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: gray;
+}
+
+#divi{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#divi img{
+    width: 100px;
+    border-radius: 6px;
+}
+
+#divi h2{
+    color: #111;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#divi p{
+    color: #777;
+}

@@ -1,0 +1,47 @@
+html{
+    font-family: MD Primer Bold,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: #262626;
+}
+
+#smallcards{
+    display: flex;
+    flex-direction: column;
+}
+
+#cards{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 95vw;
+    margin: auto;
+}
+
+.card{
+    margin: 0px 0px 10px 0px;
+}
+
+@media (min-width: 574px) {
+    #cards{
+        flex-direction: row;
+        max-width: 930px;
+        flex-wrap: nowrap;
+        align-items: stretch;
+    }
+
+    .card{
+        margin: 0;
+    }
+
+    #smallcards{
+        justify-content: space-between;
+    }
+
+    #gui{
+        width: 50%;
+        margin-left: 30px;
+        height: 100%;
+        flex-basis: 0;
+    }
+}

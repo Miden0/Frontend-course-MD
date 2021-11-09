@@ -1,0 +1,23 @@
+#formv{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#formv img{
+    width: 100px;
+    border-radius: 6px;
+}
+
+#formv h2{
+    color: #111;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#formv p{
+    color: #777;
+}

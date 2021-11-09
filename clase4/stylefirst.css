@@ -1,0 +1,25 @@
+#divi{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#divi img{
+    width: 100px;
+    border-radius: 6px;
+}
+
+#divi h2{
+    color: #111;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    display: block;
+}
+
+#divi p{
+    color: #777;
+    display: block;
+}
